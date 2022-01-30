@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    display: flex;
+}
+
+.title-container{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.title-container img {
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+
+.title-container h1{
+    font-size: 2.8rem;
+    color: #e74c3c;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 16px 0px;
+}
+
+.card label, div {
+    display: block;
+}
+
+.card {
+    margin: 4px 16px;
+}
+
+.card h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card label {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+
+.card input {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+}
+
+.card div > button {
+    padding: 5px;
+    background: #e17055;
+    color: white;
+    border-radius: 10px;
+    margin-right: 4px;
+}
